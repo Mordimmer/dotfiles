@@ -72,4 +72,7 @@ let b:ale_linters = ['pyflakes', 'flake8', 'pylint']
 let b:ale_fixers = ['eslint']
 let b:ale_fix_on_save = 1
 
+"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+" Markdown syntax highlighting
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 call plug#end()
