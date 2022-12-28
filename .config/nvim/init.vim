@@ -1,6 +1,8 @@
 set number
 set relativenumber
 set noshowmode
+set scrolloff=5
+
 
 call plug#begin()
 "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
