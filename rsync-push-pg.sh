@@ -19,7 +19,7 @@ sshpass -p "0028" rsync -v -r -a /home/kamil/pg raspberrypi:/srv/dev-disk-by-uui
 
 ################################
 # rsync server -> ~/pg
-sshpass -p "0028" rsync -v -r -a raspberrypi:/srv/dev-disk-by-uuid-97cdb0ad-bd38-4dcc-a7df-13e0ef1d2e74/rsync/ /home/kamil/
+sshpass -p "0028" rsync -v -r -a raspberrypi:/srv/dev-disk-by-uuid-97cdb0ad-bd38-4dcc-a7df-13e0ef1d2e74/rsync/pg /home/kamil/
 
 
 ################################
