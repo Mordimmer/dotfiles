@@ -10,6 +10,8 @@ alias mkdir="mkdir -pv"  # Creates parent directories if needed
 alias hist="history"
 alias jobs="jobs -l"
 alias path="echo -e ${PATH//:/\\n}"
+alias ll="ls -lh"
+alias ll="ls -lha"
 
 # Neovim by default
 alias vim="nvim"
