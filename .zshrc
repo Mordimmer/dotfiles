@@ -120,7 +120,7 @@ alias hist="history"
 alias jobs="jobs -l"
 alias path="echo -e ${PATH//:/\\n}"
 alias ll="ls -lh"
-alias ll="ls -lha"
+alias la="ls -lha"
 
 # Neovim by default
 alias vim="nvim"
